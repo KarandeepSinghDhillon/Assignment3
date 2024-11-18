@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+.container{
+    background-color: rgb(216, 246, 236);
+    width: 700px;
+    height: 900px;
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display:flex;
+    border:3px solid rgb(50, 45, 45);
+}
+.left-container{
+    background-color: rgb(50, 45, 45);
+    width:250px;
+    height:900px;
+    padding-left: 10px;
+    max-height:900px;
+    max-width: 250px;
+}
+.profile{
+    margin: auto;
+    width: 150px;
+    margin-top: 30px;
+}
+.profile img {
+    border-radius: 50%;
+    height: 170px;
+    margin-left: 2px;
+}
+.details{
+    margin:25px 0px 10px 30px ;
+}
+.heads{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    color:rgb(236, 216, 216);
+    border-bottom:2px solid white;
+    margin-top: 20px;
+}
+.head-child{
+    color: rgb(192, 208, 221);
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 2px;
+}
+.contact{
+    margin-top: 15px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    color:rgb(236, 216, 216);
+}
+ul{
+    margin: 10px 0px 0px 15px;
+    color: rgb(221, 233, 243);
+}
+.right-container{
+    max-width: 480px;
+    max-height: 860px;
+    width: 480px;
+    height:900px;
+    background-color:rgb(248, 237, 222);
+    padding:20px;
+}
+.name{
+}
+.occupation{
+}
+.introduction{
+    margin-top: 10px;
+    height:120px
+}
+.Skills{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    color:rgb(26, 12, 12);
+    border-bottom:2px solid rgb(12, 6, 6);
+    margin-top: 20px;
+}
+.right-container ul{
+    color:black;
+    height: 185px;
+}
+.exp{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    color:rgb(13, 9, 9);
+    border-bottom:2px solid rgb(15, 10, 10);
+    margin-top: 20px;
+}
